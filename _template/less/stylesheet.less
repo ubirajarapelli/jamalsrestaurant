@@ -1,0 +1,57 @@
+@import '_variables.less';
+@import '_fonts.less';
+
+@import '_grid.less';
+
+
+html{
+	font-family: @antonioregular;
+}
+.header{
+	background-image: url('../images/bg-header.svg'); 
+	height: 650px;
+	background-color: lighten(@salmon, 15%);
+}
+
+#logo{
+	margin-top: 5%;
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+#main{
+	h1{
+		font-family: @antoniobold;
+		text-transform: uppercase;
+		color: @darkBrown;
+		text-shadow: 1px 1px 0px rgba(247,232,222,.5);
+	}
+	p{
+		font-family: @antoniolight;
+		color: @darkBrown;
+		font-size: 2em;
+		text-shadow: 1px 1px 0px rgba(247,232,222,.5);
+	}
+	strong{
+		font-family: @antonioregular;
+	}
+}
+
+nav{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 30px;
+}
+
+
+#modal1{
+	width: 35%;
+}
+
+.col{
+	//background-color: rgba(210,10,10,.3);
+}
