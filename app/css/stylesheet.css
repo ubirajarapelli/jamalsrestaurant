@@ -57,16 +57,31 @@ body:after {
   max-width: 1140px;
   margin: 0 auto;
 }
+.grey-text {
+  color: #593340 !important;
+}
 html {
   font-family: 'antonioregular';
 }
+a {
+  color: #d99262;
+}
 .header {
   background-image: url('../images/bg-header.svg');
-  height: 650px;
+  background-position: top;
   background-color: #e8bda0;
+  background-size: cover;
+  max-height: 650px;
+}
+header h2,
+header h3,
+header h4,
+header h5 {
+  color: #593340;
+  text-shadow: 1px 1px 0px #ffffff;
 }
 #logo {
-  margin-top: 5%;
+  margin-top: 3%;
   text-align: center;
   margin-bottom: 3%;
 }
@@ -88,12 +103,15 @@ html {
 nav {
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: none;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 30px;
+  background: #593340;
+  opacity: 20%;
 }
-#modal1 {
-  width: 35%;
+.how-to-do img {
+  height: 80px;
+}
+#make-a-wish {
+  background: #f0f0f0;
+}
+footer.page-footer {
+  background: #593340;
 }

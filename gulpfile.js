@@ -63,10 +63,10 @@ gulp.task('browser-sync', function () {
 	// });
 
 		browserSync.init(files,{
-			proxy: "http://localhost:8888/jamalrestaurant/app/",
-			port: '3000'
-		// proxy: 'http://localhost/~ubirajarapelli/virtuozas/',
-		// port: '3000'
+			// proxy: "http://localhost:8888/jamalrestaurant/app/",
+			// port: '3000'
+		proxy: 'http://localhost/~ubirajarapelli/jamalsrestaurant/app/',
+		port: '3000'
 	});
 
 	gulp.watch('_template/less/*.less', ['less']);
